@@ -4,6 +4,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
+		
 		SalesClass s = new SalesClass();
 		s.show();
 		
@@ -12,7 +13,7 @@ public class MainClass {
 		
 		CustomerAddressClass ca = new CustomerAddressClass();
 		ca.showAddress();
-		
+		System.err.println("Edited again");
 		CustomerCityClass cc = new CustomerCityClass();
 		cc.showCity();
 		
