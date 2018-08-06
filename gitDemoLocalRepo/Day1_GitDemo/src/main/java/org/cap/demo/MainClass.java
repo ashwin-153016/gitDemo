@@ -13,7 +13,7 @@ public class MainClass {
 		
 		CustomerAddressClass ca = new CustomerAddressClass();
 		ca.showAddress();
-		System.err.println("Edited again");
+		System.out.println("Edited again");
 		CustomerCityClass cc = new CustomerCityClass();
 		cc.showCity();
 		
