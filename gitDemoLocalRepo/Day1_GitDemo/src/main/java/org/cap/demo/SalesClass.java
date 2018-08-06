@@ -2,10 +2,10 @@ package org.cap.demo;
 
 public class SalesClass {
 
-	int[] arr = {1,2,3,-89,56};
+	int[] arra = {1,2,3,100,56};
 	
 	public void show() {
-		for(int a:arr) {
+		for(int a:arra) {
 			System.out.println(a + " ");
 		}
 	}
