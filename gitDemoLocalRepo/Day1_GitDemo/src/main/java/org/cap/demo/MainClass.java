@@ -13,9 +13,7 @@ public class MainClass {
 		
 		CustomerAddressClass ca = new CustomerAddressClass();
 		ca.showAddress();
-		
-		CustomerCityClass cc = new CustomerCityClass();
-		cc.showCity();
+;
 		}
 
 	public static void greet() {
