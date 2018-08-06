@@ -16,14 +16,11 @@ public class MainClass {
 		
 		CustomerCityClass cc = new CustomerCityClass();
 		cc.showCity();
-		
-		
-	}
+		}
 
 	public static void greet() {
-		System.out.println("Hello ");
-		
-		for(int i=1; i<10; i++) {
+System.out.println("Welcome ");		
+		for(int i=1; i<15; i++) {
 			System.out.println(i + " ");
 		}
 	}
