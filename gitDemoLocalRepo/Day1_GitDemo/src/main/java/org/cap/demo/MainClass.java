@@ -13,12 +13,11 @@ public class MainClass {
 		
 		CustomerAddressClass ca = new CustomerAddressClass();
 		ca.showAddress();
-		System.out.println("Edited again");
+		
 		CustomerCityClass cc = new CustomerCityClass();
 		cc.showCity();
 		
-		System.out.println("Hello world");
-		greet();
+		
 	}
 
 	public static void greet() {
