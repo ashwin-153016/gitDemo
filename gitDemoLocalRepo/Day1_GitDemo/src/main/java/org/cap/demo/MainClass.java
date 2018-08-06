@@ -4,6 +4,9 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
+		SalesClass s = new SalesClass();
+		s.show();
+		
 		System.out.println("Hello world");
 		greet();
 	}
