@@ -7,6 +7,15 @@ public class MainClass {
 		SalesClass s = new SalesClass();
 		s.show();
 		
+		CustomerClass c = new CustomerClass();
+		c.sayCustomer();
+		
+		CustomerAddressClass ca = new CustomerAddressClass();
+		ca.showAddress();
+		
+		CustomerCityClass cc = new CustomerCityClass();
+		cc.showCity();
+		
 		System.out.println("Hello world");
 		greet();
 	}
