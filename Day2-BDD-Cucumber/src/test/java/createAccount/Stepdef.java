@@ -160,7 +160,7 @@ public class Stepdef {
 		Account account=new Account();
 		account.setAccountNo(1001);
 		account.setCustomer(customer);
-		account.setOpeningBalance(10000);
+		account.setOpeningBalance(1000);
 		
 		
 		Mockito.when(accountDao.findAccountById(1001)).thenReturn(account);
@@ -212,7 +212,7 @@ public void find_account_and_do_withdrawal() throws Throwable {
 	   
 		
 		Account account=new Account();
-		account.setAccountNo(1001);
+		account.setAccountNo(1);
 		account.setCustomer(customer);
 		//account.setOpeningBalance(10000);
 		//Mockito.times(2);
